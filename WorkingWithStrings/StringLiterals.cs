@@ -22,8 +22,8 @@ namespace WorkingWithStrings
         /// </summary>
         public static string ReturnAbcdefStringLiteral()
         {
-            // TODO #1-1. Implement the method - return a string literal.
-            throw new NotImplementedException();
+            // #1-1. Implement the method - return a string literal.
+            return "ABCDEF";
         }
 
         /// <summary>
@@ -31,9 +31,9 @@ namespace WorkingWithStrings
         /// </summary>
         public static string ReturnEmptyString()
         {
-            // TODO #1-2. Implement the method - return an empty literal.
+            // #1-2. Implement the method - return an empty literal.
             // Use String.Empty static field: https://docs.microsoft.com/en-us/dotnet/api/system.string.empty
-            throw new NotImplementedException();
+            return string.Empty;
         }
 
         /// <summary>
@@ -41,8 +41,8 @@ namespace WorkingWithStrings
         /// </summary>
         public static string ReturnFilePathStringLiteral()
         {
-            // TODO #1-3. Implement the method - return "c:\documents\files\myfile0234.txt" string literal.
-            throw new NotImplementedException();
+            // #1-3. Implement the method - return "c:\documents\files\myfile0234.txt" string literal.
+            return "c:\\documents\\files\\myfile0234.txt";
         }
 
         /// <summary>
@@ -50,9 +50,9 @@ namespace WorkingWithStrings
         /// </summary>
         public static string ReturnFilePathVerbatimStringLiteral()
         {
-            // TODO #1-4. Implement the method - return "c:\documents\files\myfile0234.txt" verbatim string literal.
+            // #1-4. Implement the method - return "c:\documents\files\myfile0234.txt" verbatim string literal.
             // See @ article in C# Reference: https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/verbatim
-            throw new NotImplementedException();
+            return @"c:\documents\files\myfile0234.txt";
         }
     }
 }
